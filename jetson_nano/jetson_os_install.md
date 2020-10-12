@@ -1,8 +1,8 @@
 
 Content:
 <a id='start'></a>
-[EN Manual](en_manual)
-[RU Manual](ru_manual)
+[EN Manual](#en_manual)
+[RU Manual](#ru_manual)
 
 ##### EN:
 ##### Installing JetPack on Jetson Nano. Linux OS.
@@ -154,4 +154,4 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
     $ sudo ./jetson_nano_jetpack4.4_setup.sh
     
     
-[Back to Content](start)
+[Back to Content](#start)
