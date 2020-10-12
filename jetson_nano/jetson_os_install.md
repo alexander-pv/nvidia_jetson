@@ -1,6 +1,12 @@
 
+Content:
+<a id='start'></a>
+[EN Manual](en_manual)
+[RU Manual](ru_manual)
+
 ##### EN:
 ##### Installing JetPack on Jetson Nano. Linux OS.
+<a id='en_manual'></a>
 
 The minimum amount of memory to microSD: 32Gb. 16Gb is enough for tests, but almost all the space will be occupied by the system.
 Minimum microSD class for stable operation : 10.
@@ -75,6 +81,7 @@ Run the installer:
 
 ##### RU:
 ##### Установка ОС JetPack на Jetson Nano. Linux OS.
+<a id='ru_manual'></a>
 
 Минимальный объем памяти для microSD: 32Gb. Для тестов хватит и 16Gb, однако практически все место будет занято системой.
 Минимальный класс microSD для стабильной работы : 10.
@@ -145,3 +152,6 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
     $ cd ~/<your_path>/nvidia_jetson/jetso_nano
     $ chmod +x ./jetson_nano_jetpack4.4_setup.sh
     $ sudo ./jetson_nano_jetpack4.4_setup.sh
+    
+    
+[Back to Content](start)
