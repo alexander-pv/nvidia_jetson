@@ -57,10 +57,10 @@ alternative installation: using the GUI interface with the balenaEtcher device f
        $ sudo eject /dev/sd<x>
 
 ---
-If there is no Wifi-USB module to connect to the network, you can draw a network bridge, for example, in conjunction with another Linux via Ethernet.
-To do this, you can use the nm-connection editor utility in the terminal.
-For the network donor, select Method: Shared to other computers in the IPv4 Settings tab in the window that appears.
-To take effect of the network bridge, reconnect the Ethernet connection on the recipient.
+    If there is no Wifi-USB module to connect to the network, you can draw a network bridge, for example, in conjunction with another Linux via Ethernet.
+    To do this, you can use the nm-connection editor utility in the terminal.
+    For the network donor, select Method: Shared to other computers in the IPv4 Settings tab in the window that appears.
+    To take effect of the network bridge, reconnect the Ethernet connection on the recipient.
 ---
 
 To fully configure the Jetson device after installing OS: (Opencl&CUDA, Tensorflow 2.2, DeepStream 5)
@@ -132,10 +132,12 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
        $ sudo eject /dev/sd<x>
 
 ---
-Если нет Wifi-USB модуля для подключения к сети, можно провести сетевой мост, например, в связке с другим Linux через Ethernet.
-Для этого можно воспользоваться утилитой nm-connection editor в терминале.
-Для донора сети в появившемся окне во вкладке IPv4 Settings выбрать Method: Shared to other computers.
-Для вступления в силу сетевого моста переподключить соединение Ethernet на рецепиенте.
+
+    Если нет Wifi-USB модуля для подключения к сети, можно провести сетевой мост, например, в связке с другим Linux через Ethernet.
+    Для этого можно воспользоваться утилитой nm-connection editor в терминале.
+    Для донора сети в появившемся окне во вкладке IPv4 Settings выбрать Method: Shared to other computers.
+    Для вступления в силу сетевого моста переподключить соединение Ethernet на рецепиенте.
+
 ---
 
 Для полной настройки Jetson-устройства после установки OS: (OpenCV&CUDA, Tensorflow 2.2, DeepStream 5)
