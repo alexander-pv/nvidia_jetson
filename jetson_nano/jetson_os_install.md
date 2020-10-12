@@ -34,6 +34,7 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 
 3. Write an image of the received system:
 
+        $ sudo umount /dev/sd<x>
         $ /usr/bin/unzip -p ~/Downloads/jetson-nano-developer-kit-sd-card-image.zip | sudo /bin/dd of=/dev/sd<x> bs=1M status=progress
 
 where /dev/sd<x> is the address of the connected microSD found using the $df - Th command.
@@ -109,6 +110,7 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 
 3. Записать образ полученной системы:
 
+        $ sudo umount /dev/sd<x>
         $ /usr/bin/unzip -p ~/Downloads/jetson-nano-developer-kit-sd-card-image.zip | sudo /bin/dd of=/dev/sd<x> bs=1M status=progress
 
 где /dev/sd<x> - найденный адрес подключенной microSD с помощью команды $df -Th.
