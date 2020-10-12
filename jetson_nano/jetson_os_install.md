@@ -1,8 +1,9 @@
 
 Content:
 <a id='start'></a>
-[EN Manual](#en_manual)
-[RU Manual](#ru_manual)
+
+* [EN manual](#en_manual)
+* [RU manual](#ru_manual)
 
 ##### EN:
 ##### Installing JetPack on Jetson Nano. Linux OS.
