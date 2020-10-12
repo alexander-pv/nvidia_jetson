@@ -39,8 +39,8 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 where /dev/sd<x> is the address of the connected microSD found using the $df - Th command.
 
 ---
-For example, for the detected /dev/sdb1 vfat 30G 32K 30G 1% /media/alexander/9016-4EF8:
-/usr/bin/unzip -p ~/Downloads/jetson-nano-developer-kit-sd-card-image.zip | sudo /bin/dd of=/dev/sdb bs=1M status=progress
+    For example, for the detected /dev/sdb1 vfat 30G 32K 30G 1% /media/alexander/9016-4EF8:
+    /usr/bin/unzip -p ~/Downloads/jetson-nano-developer-kit-sd-card-image.zip | sudo /bin/dd of=/dev/sdb bs=1M status=progress
 ---
 
 it is important to write to the disk itself, not its partition: /dev/sdb1 - partition, /dev/sdb - disk. When writing to a partition, no comments will be issued, and bootloader will not be able to start the system.
