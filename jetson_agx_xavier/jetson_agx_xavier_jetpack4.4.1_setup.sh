@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###################################################################################################
-# Update Jetpack 4.4.1 software for Jetson AGX Xavier and install tensorflow 2.x.x
+# Update Jetpack 4.4.1 software for Jetson AGX Xavier and install OpnCV&CUDA, tensorflow 2.x.x
 # You can change variables TF_VERSION and NV_VERSION to configure desired tensorflow 2.x.x version.
 ###################################################################################################
 
