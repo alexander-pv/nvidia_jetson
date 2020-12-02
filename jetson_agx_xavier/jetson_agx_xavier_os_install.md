@@ -27,7 +27,7 @@ Steps:
  
 3.Open sdkmanager on the computer and follow the detailed instructions in sdkmanager documentation.
 After flashing device you need to configure system and continue installing components 
-with sdkmanager. 
+with sdkmanager. Deepstream with samples will be already installed on the device.
 
 4.You may want to update your system and install OpenCV&CUDA, tensorflow library.
    To do this you may run the following:
