@@ -27,9 +27,9 @@ Steps:
  
 3.Open sdkmanager on the computer and follow the detailed instructions in sdkmanager documentation.
 After flashing device you need to configure system and continue installing components 
-with sdkmanager. DeepStream and Opencv&CUDA will be already installed.
+with sdkmanager. 
 
-4.You may want to update your system and install tensorflow library.
+4.You may want to update your system and install OpenCV&CUDA, tensorflow library.
    To do this you may run the following:
    
     $ cd ~/<your_path>/nvidia_jetson/jetson_agx_xavier

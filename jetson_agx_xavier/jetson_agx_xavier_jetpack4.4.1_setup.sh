@@ -39,9 +39,22 @@ echo "Installing tensorflow 2.2. It may take some time to build all the needed p
 echo -e "\n\nImportant. import cv2 must be before tensorflow import, else 'raise cannot allocate memory in static TLS block'.\n\n"
 sudo -H python3 -m pip install --no-cache-dir --pre --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v44 tensorflow==$TF_VERSION+nv$NV_VERSION
 
-END_TIME=$(get_timestamp)
+echo -e "Building OpenCV&CUDA. This will take about 6 hours to compile...\n\n"
+
+opencv_t0=$(get_timestamp)
+wget https://github.com/mdegans/nano_build_opencv/archive/master.zip
+unzip -p master.zip nano_build_opencv-master/build_opencv.sh > ./build_opencv.sh
+rm master.zip
+sudo chmod 777 build_opencv.sh
+sudo ./build_opencv.sh 4.1.1
+opencv_t1=$(get_timestamp)
+
+echo "OpenCV$CUDA was built. Start time: $opencv_t0. End time: $opencv_t1"
+echo "To check whether installation is successfull, reboot the system and use 'jetson_release -v' in a terminal or use 'jtop' command."
 
 sudo apt autoremove
+
+END_TIME=$(get_timestamp)
 
 echo -e "Installation time: start: $INIT_TIME, end: $END_TIME"
 
