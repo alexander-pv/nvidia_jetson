@@ -11,7 +11,7 @@ See documentation about sdkmanager here:
  * [SDK Manager](https://docs.nvidia.com/sdk-manager/download-run-sdkm/index.html)
  * [JetPack installation](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html)
 
-See full documentation about AGX Xavier here: [AGX Xavier documentation](https://developer.download.nvidia.com/assets/embedded/secure/jetson/xavier/docs/jetson_agx_xavier_developer_kit_user_guide.pdf?BazwSwefUlMIyfXfRWj2LNZ2CJY8HFrdAU4jvNJgIuBZZV3dmpVgY6N_EwtsG8_axtiID_AotgCKkpeMiCsiVdWwCGPGH-z2_OtqDA_nBMbUOmP_WbOmUxHlNRTPYU4OJ8Ptv0owJFUlgqOL_TjCogUlwj0rlM9sCAgAGO9qkVukhkiaV8yO3mS2qdhbqPgfudp70M4bCg)
+See full documentation about AGX Xavier here: [AGX Xavier documentation](https://developer.download.nvidia.com/embedded/L4T/r32-3-1_Release_v1.0/jetson_agx_xavier_developer_kit_user_guide.pdf?_Z22bpSl3qyO-cDeiffPaTKT98b8ez-LEwS89GK4NVfwWNzFOkhtQ0SgLdi4Bt-m-yHfTHKXCL2dmitq44khUWzVUBBLkP31kJjwy6Gkkx_TAFBmJfBpAUG6tr_aTlPE_PUIU2eI1Optvu9APKRzuDDwb2PBH0YNi2_4HDxAfna-0LEGnF9sZwALC6I5lOE)
 
 Steps:
 
