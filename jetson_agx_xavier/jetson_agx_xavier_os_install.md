@@ -29,6 +29,11 @@ Steps:
 After flashing device you need to configure system and continue installing components 
 with sdkmanager. Deepstream with samples will be already installed on the device.
 
+Note, after OS flashing all the packages along with CUDA requires Internet on the flashed device. Make sure that
+you are connected to the proper network (see ifconfig command) where Internet is available.\
+For example, to share Internet via Ethernet you can open nm-connection-editor to enable Internet sharing via ipv4 to
+other computers.
+
 4.You may want to update your system and install OpenCV&CUDA, tensorflow library.
    To do this you may run the following:
    
