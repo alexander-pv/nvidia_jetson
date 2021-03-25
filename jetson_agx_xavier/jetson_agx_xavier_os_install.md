@@ -4,7 +4,6 @@
 <a id='en_manual'></a>
 
 To install OS on Jetson AGX Xavier you can use NVIDIA SDK manager.
-The recent version of JetPack: 4.4.1
 Note, that for now NVIDIA SDK manager supports only Ubuntu 16.04 and 18.04 on x64 system.
 
 See documentation about sdkmanager here:
@@ -31,13 +30,17 @@ with sdkmanager. Deepstream with samples will be already installed on the device
 
 Note, after OS flashing all the packages along with CUDA requires Internet on the flashed device. Make sure that
 you are connected to the proper network (see ifconfig command) where Internet is available.\
-For example, to share Internet via Ethernet you can open nm-connection-editor to enable Internet sharing via ipv4 to
-other computers.
+For example, to share Internet via Ethernet you can open nm-connection-editor on host computer to enable Internet 
+sharing via ipv4 settings to other computers like Jetson device. 
+It is highly likely that on Jetson device the address for eth0 interface will be 10.42.0.xxx. 
+So you can use it to install additional libraries via sdkmanager.
 
 4.You may want to update your system and install OpenCV&CUDA, tensorflow library.
    To do this you may run the following:
    
     $ cd ~/<your_path>/nvidia_jetson/jetson_agx_xavier
-    $ chmod +x ./jetson_agx_xavier_jetpack4.4.1_setup.sh
-    $ sudo ./jetson_agx_xavier_jetpack4.4.1_setup.sh
+    $ chmod +x ./jetson_agx_xavier_jetpack_setup.sh
+    $ sudo ./jetson_agx_xavier_jetpack_setup.sh
+
+Tested with Jetpack: 4.4.1, 4.5.1
 
