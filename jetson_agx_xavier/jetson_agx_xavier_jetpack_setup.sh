@@ -61,4 +61,6 @@ END_TIME=$(get_timestamp)
 
 echo -e "Installation time: start: $INIT_TIME, end: $END_TIME"
 
+echo -e "\n Warning. If your JetPack OS is >4.4.1, use sudo apt install deepstream-x.x \n"
+
 
