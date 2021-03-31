@@ -49,6 +49,9 @@ sudo chmod 777 build_opencv.sh
 sudo ./build_opencv.sh 4.1.1
 opencv_t1=$(get_timestamp)
 
+# Fix for possible  Illegal instruction(core dumped) while importing cv2 in python
+echo "export OPENBLAS_CORETYPE=ARMV8" >> ~/.bashrc
+
 echo "OpenCV$CUDA was built. Start time: $opencv_t0. End time: $opencv_t1"
 echo "To check whether installation is successfull, reboot the system and use 'jetson_release -v' in a terminal or use 'jtop' command."
 
