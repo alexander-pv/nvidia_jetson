@@ -6,9 +6,6 @@
 To install OS on Jetson AGX Xavier you can use NVIDIA SDK manager.
 Note, that for now NVIDIA SDK manager supports only Ubuntu 16.04 and 18.04 on x64 system.
 
-Also:\
-   Jetpack __4.4.1__: Deepstream is included to the installation by default;\
-   Jetpack __4.5.1__: No deepstream installation by default. It was included to `jetson_agx_xavier_jetpack_4.5.1_setup.sh`
 
 See documentation about sdkmanager here:
  * [SDK Manager](https://docs.nvidia.com/sdk-manager/download-run-sdkm/index.html)
@@ -50,6 +47,6 @@ So you can use it to install additional libraries via sdkmanager.
     $ chmod +x ./jetson_agx_xavier_jetpack_setup.sh
     $ sudo ./jetson_agx_xavier_jetpack_4.x.x_setup.sh
 
-    Available setups for JetPack in the repo: 4.4.1, 4.5.1
+    Available setups for JetPack in the repo: 4.4.1, 4.5.1(added deepstream installation and opencv fix)
 
 
