@@ -46,7 +46,7 @@ wget https://github.com/mdegans/nano_build_opencv/archive/master.zip
 unzip -p master.zip nano_build_opencv-master/build_opencv.sh > ./build_opencv.sh
 rm master.zip
 sudo chmod 777 build_opencv.sh
-sudo ./build_opencv.sh 4.1.1
+sudo ./build_opencv.sh 4.4.0
 opencv_t1=$(get_timestamp)
 
 echo "OpenCV$CUDA was built. Start time: $opencv_t0. End time: $opencv_t1"
